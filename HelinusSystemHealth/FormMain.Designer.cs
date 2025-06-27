@@ -83,7 +83,7 @@
             menuStripMain.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
             menuStripMain.Size = new System.Drawing.Size(488, 24);
             menuStripMain.TabIndex = 1;
-            menuStripMain.Text = "Helinus Health";
+            menuStripMain.Text = "Helinus System Health";
             // 
             // fileToolStripMenuItem
             // 
