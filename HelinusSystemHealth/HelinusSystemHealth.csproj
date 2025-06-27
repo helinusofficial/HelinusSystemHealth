@@ -11,8 +11,8 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net9.0-windows7.0</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
-    <AssemblyVersion>25.6.27.141</AssemblyVersion>
-    <FileVersion>25.6.27.141</FileVersion>
+    <AssemblyVersion>25.6.27.146</AssemblyVersion>
+    <FileVersion>25.6.27.146</FileVersion>
     <ApplicationIcon>favicon.ico</ApplicationIcon>
     <Version>1.1.0</Version>
     <Company>Helinus</Company>

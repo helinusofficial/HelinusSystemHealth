@@ -67,7 +67,7 @@
             statusStripMain.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
             statusStripMain.Size = new System.Drawing.Size(488, 22);
             statusStripMain.TabIndex = 0;
-            statusStripMain.Text = "Helinus Health";
+            statusStripMain.Text = "Helinus System Health";
             // 
             // toolStripStatusLabelVer
             // 
@@ -182,7 +182,7 @@
             // 
             toolStripMenuItemShow.Name = "toolStripMenuItemShow";
             toolStripMenuItemShow.Size = new System.Drawing.Size(184, 22);
-            toolStripMenuItemShow.Text = "Show Helinus Health";
+            toolStripMenuItemShow.Text = "Show Helinus System Health";
             toolStripMenuItemShow.Click += toolStripMenuItemShow_Click;
             // 
             // aboutToolStripMenuItemAbout
@@ -196,7 +196,7 @@
             // 
             notifyIconMain.ContextMenuStrip = contextMenuStripMain;
             notifyIconMain.Icon = (System.Drawing.Icon)resources.GetObject("notifyIconMain.Icon");
-            notifyIconMain.Text = "Health";
+            notifyIconMain.Text = "Helinus System Health";
             notifyIconMain.Visible = true;
             // 
             // panelControls
@@ -221,7 +221,7 @@
             labelLogoDetail.Name = "labelLogoDetail";
             labelLogoDetail.Size = new System.Drawing.Size(84, 12);
             labelLogoDetail.TabIndex = 3;
-            labelLogoDetail.Text = "System Health";
+            labelLogoDetail.Text = "Helinus System Health";
             // 
             // labelLogo
             // 
