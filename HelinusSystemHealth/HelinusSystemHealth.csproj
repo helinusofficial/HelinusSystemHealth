@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows7.0</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyVersion>25.6.27.138</AssemblyVersion>
+    <FileVersion>25.6.27.138</FileVersion>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+    <Version>1.1.0</Version>
+    <Company>Helinus</Company>
+    <Product>HelinusSystemHealth</Product>
+    <Authors>HelinusSystemHealth</Authors>
+    <Copyright>@ 2025</Copyright>
+    <PackageProjectUrl>https://www.helinus.com</PackageProjectUrl>
+  </PropertyGroup>
+
+</Project>
