@@ -39,8 +39,6 @@
             helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             groupBoxStatus = new System.Windows.Forms.GroupBox();
-            labelPastTemp = new System.Windows.Forms.Label();
-            label2 = new System.Windows.Forms.Label();
             numericUpDownTemp = new System.Windows.Forms.NumericUpDown();
             labelTime = new System.Windows.Forms.Label();
             buttonStop = new System.Windows.Forms.Button();
@@ -123,8 +121,6 @@
             // groupBoxStatus
             // 
             groupBoxStatus.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
-            groupBoxStatus.Controls.Add(labelPastTemp);
-            groupBoxStatus.Controls.Add(label2);
             groupBoxStatus.Controls.Add(numericUpDownTemp);
             groupBoxStatus.Controls.Add(labelTime);
             groupBoxStatus.Controls.Add(buttonStop);
@@ -133,28 +129,10 @@
             groupBoxStatus.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             groupBoxStatus.Name = "groupBoxStatus";
             groupBoxStatus.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            groupBoxStatus.Size = new System.Drawing.Size(487, 82);
+            groupBoxStatus.Size = new System.Drawing.Size(487, 59);
             groupBoxStatus.TabIndex = 2;
             groupBoxStatus.TabStop = false;
             groupBoxStatus.Text = "Status";
-            // 
-            // labelPastTemp
-            // 
-            labelPastTemp.AutoSize = true;
-            labelPastTemp.Location = new System.Drawing.Point(69, 54);
-            labelPastTemp.Name = "labelPastTemp";
-            labelPastTemp.Size = new System.Drawing.Size(13, 15);
-            labelPastTemp.TabIndex = 7;
-            labelPastTemp.Text = "0";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new System.Drawing.Point(12, 54);
-            label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(35, 15);
-            label2.TabIndex = 6;
-            label2.Text = "Now:";
             // 
             // numericUpDownTemp
             // 
@@ -260,9 +238,9 @@
             // richTextBoxLogs
             // 
             richTextBoxLogs.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
-            richTextBoxLogs.Location = new System.Drawing.Point(0, 152);
+            richTextBoxLogs.Location = new System.Drawing.Point(0, 129);
             richTextBoxLogs.Name = "richTextBoxLogs";
-            richTextBoxLogs.Size = new System.Drawing.Size(487, 307);
+            richTextBoxLogs.Size = new System.Drawing.Size(487, 330);
             richTextBoxLogs.TabIndex = 5;
             richTextBoxLogs.Text = "";
             // 
@@ -321,8 +299,6 @@
         private System.Windows.Forms.Label labelTime;
         private System.Windows.Forms.Button buttonStop;
         private System.Windows.Forms.Button buttonStart;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label labelPastTemp;
         private System.Windows.Forms.RichTextBox richTextBoxLogs;
     }
 }
